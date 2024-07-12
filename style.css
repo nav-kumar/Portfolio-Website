@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('AdobeStock.jpeg'); /* Ensure the image is in the same directory */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Light black color for text */
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Increased font size */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Increased font size */
+    color: #333; /* Light black color for header */
+}
+
+nav {
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #333; /* Light black color for nav links */
+    text-decoration: none;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #333; /* Light black color for footer */
+}
